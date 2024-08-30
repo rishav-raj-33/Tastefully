@@ -1,0 +1,226 @@
+#div-logo {
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(9, 102, 9);
+  margin-right: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+
+#nav-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+
+#header {
+  justify-content: space-between;
+}
+
+
+#navbarSupportedContent {
+  align-self: end;
+}
+
+
+/* row1 */
+
+#row-1 {
+  display: flex;
+  align-items: baseline;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+#row1-h1 {
+  font-weight: 400;
+  margin-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+#row1-h3 {
+  font-size: 16px;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+
+
+.card {
+  border-radius: 10px;
+  width: 300px;
+ 
+
+
+
+
+
+
+
+}
+
+.card-body {
+  background-color: rgba(235, 232, 232, 0.712);
+}
+
+
+.card-body>h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.card-body>h5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+
+#row1-hr {
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+
+}
+
+#list-ingredients {
+  color: rgb(9, 102, 9);
+
+}
+
+
+#card-list {
+  font-weight: 300;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  padding-right: 40px;
+  overflow: scroll;
+  scrollbar-width:none;
+ height: min-content;
+
+
+}
+
+
+#card-list>h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#card-list>ul>li {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+
+
+}
+
+#card-list {
+  margin: 10px;
+
+}
+
+
+
+#row-2 {
+  display: flex;
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:800px) {
+  #row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px !important;
+    column-gap: 200px;
+  }
+
+
+
+}
+
+
+#logo {
+  font-size: 28px;
+}
+
+
+@media only screen and (min-width:1100px) {
+
+  #card-list {
+
+    margin-right: 80px !important;
+
+  }
+
+  #row1-hr {
+    margin-left: 100px;
+  }
+
+
+  .card {
+
+    margin-right: 150px !important;
+
+
+
+
+
+
+  }
+
+
+
+
+}
+
+
+
+#pre {
+
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
